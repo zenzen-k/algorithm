@@ -1,11 +1,6 @@
 class Solution {
     public String[] solution(String my_str, int n) {
-        int num = 0;
-		if((my_str.length()%n) == 0) {
-			num = my_str.length()/n;
-		} else {
-			num = my_str.length()/n + 1;
-		}
+        int num = (int) Math.ceil((double) my_str.length() / n);
 			
 		String[] answer = new String[num];
 
