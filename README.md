@@ -1,2 +1,3 @@
-# programmers
-algorithm
+# algorithm
+- programmers
+- beakjoon
