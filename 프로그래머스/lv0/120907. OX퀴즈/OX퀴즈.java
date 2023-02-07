@@ -12,10 +12,7 @@ class Solution {
         	else if(sp[1].equals("+"))
         		a = Integer.parseInt(sp[0]) + Integer.parseInt(sp[2]);
         	
-        	if(Integer.parseInt(sp[4]) == a)
-        		answer[i] = "O";
-        	else
-        		answer[i] = "X";
+        	answer[i] = (Integer.parseInt(sp[4]) == a) ? "O" : "X";
         }
 
         return answer;
