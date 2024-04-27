@@ -9,7 +9,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int n = Integer.parseInt(br.readLine());
-		HashMap<String, Integer> numCard = new HashMap<>();
+		HashMap<String, Integer> numCard = new HashMap<>(); // 빠른 데이터 탐색
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
 		for(int i=0; i<n; i++) {
