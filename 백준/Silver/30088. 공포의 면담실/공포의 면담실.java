@@ -20,7 +20,7 @@ public class Main {
 		}
 		
 		Arrays.sort(arr);
-		int sum = 0;
+		long sum = 0;
 		for(int i=0; i<n; i++) {
 			if(i != 0) {
 				arr[i] += arr[i-1];
